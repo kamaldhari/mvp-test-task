@@ -13,16 +13,18 @@ const Question: React.FC<{
     return (
         <div className="bg-gray-100 p-4 rounded-lg shadow">
             <h2 className="text-xl font-semibold mb-4">{step}. {question}</h2>
-            {answers.map((answer) => (
-                <Button
-                    key={answer}
-                    onClick={() => handleNext(id, answer)}
-                    className="mr-2 mb-2"
-                >
-                    {answer}
-                </Button>
-            ))}
-        </div>
+            <ol>
+                {answers.map((answer) => (
+                    <Button
+                        key={answer}
+                        onClick={() => handleNext(id, answer)}
+                        className="mr-2 mb-2"
+                    >
+                        {answer}
+                    </Button>
+                ))}
+            </ol>
+        </div >
     );
 };
 

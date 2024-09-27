@@ -48,3 +48,4 @@ export const calculateDynamicScores = (data: Data, careerPaths: CareerPath[], sc
 
     return result;
 };
+

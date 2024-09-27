@@ -99,7 +99,7 @@ const Survey: React.FC = () => {
                   </div>
                 ))
               }
-              <Button onClick={step === questions.length ? showResults : handleNext} className='mt-4'>
+              <Button type='primary' onClick={step === questions.length ? showResults : handleNext} className='mt-4'>
                 {step === questions.length ? 'Show results' : 'Continue'}
               </Button>
             </div>

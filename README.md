@@ -5,13 +5,13 @@ To get started with this Test, follow these steps:
 First, Fork and Clone the repository Locally:
 
   ```bash
-   git clone url
+   git clone https://github.com/kamaldhari/mvp-test-task
   ```
 
 Next, install the required Dependencies:
 
  ```bash
-  cd test
+  cd mvp-test-task
   npm install
 ```
 
